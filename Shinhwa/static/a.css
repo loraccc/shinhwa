@@ -1,0 +1,41 @@
+  h1 {
+    background-color: rgb(161, 18, 18);
+    text-align: center;
+    text-decoration: solid;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  nav {
+    background-color: darkred;
+  }
+  
+  .dark-table {
+    color: white;
+    background-color: #333;
+    width: 100%;
+  }
+  
+  .dark-table th,
+  .dark-table td {
+    padding: 10px;
+    border: 1px solid #555;
+  }
+  
+  .dark-table th {
+    background-color: #555;
+  }
+  
+  .dark-table tbody tr:nth-child(even) {
+    background-color: #444;
+  }
+  
+  .dark-table tbody tr:nth-child(odd) {
+    background-color: #222;
+  }
+  
+  .table-container {
+    width: 100%;
+    overflow-x: auto;
+  }
+
